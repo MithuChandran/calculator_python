@@ -7,8 +7,11 @@
    To use the calculator:
     
    1.Clone the repository to your local machine.
+   
    2.Run the calculator.py script.
+   
    3.Follow the prompts to enter numbers, choose an operation, and view the result.
+   
    4.Optionally, view the calculation history at the end of the session.
 
 ## Features
