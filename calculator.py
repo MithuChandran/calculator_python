@@ -43,7 +43,16 @@ def calculator():
             print("Result:", result)
             history.append((num1, num2, operation, result))  # Append the calculation to history
             
+            while True:
+                choice = input("Do you want to perform another calculation? (yes/no): ").lower()
+                if choice in ['yes', 'no']:
+                    break
+                else:
+                    print("Invalid input. Please type 'yes' or 'no'.")
             
+            if choice == 'no':
+                print("Thank You for Using the Calculator!!!")
+                break
         
         except ValueError as ve:
             print("Error:", ve)
@@ -52,5 +61,4 @@ def calculator():
         except Exception as e:
             print("An error occurred:", e)
     
-    
-
+   
