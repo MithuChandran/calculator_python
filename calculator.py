@@ -67,3 +67,5 @@ def calculator():
         num1, num2, operation, result = calc
         print(f"{index}. {num1} {operation} {num2} = {result}")
 
+if __name__ == "__main__":
+    calculator()
