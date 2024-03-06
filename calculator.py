@@ -61,4 +61,9 @@ def calculator():
         except Exception as e:
             print("An error occurred:", e)
     
-   
+    # Display history
+    print("\nCalculation History:")
+    for index, calc in enumerate(history, start=1):
+        num1, num2, operation, result = calc
+        print(f"{index}. {num1} {operation} {num2} = {result}")
+
